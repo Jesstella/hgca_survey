@@ -6,12 +6,12 @@ Survey of Hipparcos Gaia Catalog of Accelerations to Assess Binarity.
 - The following strings were chosen as object types that represent binary systems in SIMBAD: 
 
 ** - Double/Multiple </br>
-SB* - Spectroscopic binary </br>  
+SB* - Spectroscopic binary </br>
 bL* - Eclipsing binary of beta Lyr type </br>
 LXB - Low-mass X-ray binary </br>
 Al* - Eclipsing binary of Algol type </br>
 EB* - Eclipsing binary </br>
-*i* - Star in double system </br>
+\*i\* - Star in double system </br>
 WU* - Eclipsing binary of W UMa type </br>
 
 NB: There are more object types in SIMBAD that are indicative of multiple star systems, this code only uses those relevant to our work. 
