@@ -5,7 +5,7 @@ Survey of Hipparcos Gaia Catalog of Accelerations to Assess Binarity.
 - User can designate list of HIP IDs as as list of number, code will format for SIMBAD. 
 - The following strings were chosen as object types that represent binary systems in SIMBAD: 
 
-** - Double/Multiple /
+** - Double/Multiple \
 
 SB* - Spectroscopic binary 
 
