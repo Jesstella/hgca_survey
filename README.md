@@ -22,3 +22,7 @@ NB: There are more object types in SIMBAD that are indicative of multiple star s
 - NB: Making the radius too small will prevent stars from being returned. 
 - The initial search section of the code called the WDS names using HIP ID's. Each of these is pulled from the server in turn so can take a while. Be mindful that if any of the queries were to take longer than 10 seconds (lagging internet etc.) then the code can fail. The list of names will save and the user can adjust the code to continue the list from that spot. 
 - The second search is from a downloaded version of the catalog. This runs quicker and will produce the observation dates, position angles and separations for two separate observations of the primary star with one companion. It will also return the magnitude of the primary and secondary star, and the magnitude difference. 
+
+### Notes for SS20_gaia_search 
+- At this stage the Gaia search only retrieves how many companions the star has and not the data file, although this will be updated in time. 
+- NB: Querying of the targets can take time and the user should be prepared for this. 
