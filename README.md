@@ -26,3 +26,6 @@ NB: There are more object types in SIMBAD that are indicative of multiple star s
 ### Notes for SS20_gaia_search 
 - At this stage the Gaia search only retrieves how many companions the star has and not the data file, although this will be updated in time. 
 - NB: Querying of the targets can take time and the user should be prepared for this. 
+
+### Notes for SS20_accelerations
+- Code based on acceleration code written by Elena Mitra.
