@@ -6,6 +6,9 @@ This code allows the user to cross-match a file with a Gaia RA and Dec to a file
 - The epoch used to shift the RA and Dec from the Gaia frame to the Keck observations is created by adding the Gaia RA and Dec in quadrature. 
 - KOA file lists could come with RA and Dec values listed as 'NaN'. The code will clean these out before running the comparsion, meaning obviously that these observations will not be included in the cross-match. 
 
+### Notes for SS20_code_for_missing_columns
+- Incase the user needs another column pulled from the original datafile. This code can be used. Example given is for column 'pmdec_hip'. 
+
 ### Notes for SS20_simbad_object_types
 - User can designate list of HIP IDs as as list of number, code will format for SIMBAD. 
 - The following strings were chosen as object types that represent binary systems in SIMBAD: 
