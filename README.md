@@ -37,3 +37,6 @@ NB: There are more object types in SIMBAD that are indicative of multiple star s
 
 ### Notes for SS20_accelerations
 - Code based on acceleration code written by Elena Mitra.
+
+### Notes for SS20_siga_calculations
+- Code creates sigma values for RA and Dec in both Gaia and Hipparcos. 
