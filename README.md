@@ -43,3 +43,6 @@ NB: There are more object types in SIMBAD that are indicative of multiple star s
 
 ### Notes for SS20_interesting_stars
 - Code determines which stars are 'interesting' based on the users criteria of how many companions are found in a system and how high the acceleration of the primary star is. Currently assumes 0 binaries and an astrometric acceleration of 100m/s/yr.
+
+### Notes for SS20_compiling_spreadsheet 
+- Code will compile all the calculated elements of each system into a spreadsheet with all systems. If the above code has been used, this script should run without complaint.
