@@ -38,5 +38,8 @@ NB: There are more object types in SIMBAD that are indicative of multiple star s
 ### Notes for SS20_accelerations
 - Code based on acceleration code written by Elena Mitra.
 
-### Notes for SS20_siga_calculations
+### Notes for SS20_sigma_calculations
 - Code creates sigma values for RA and Dec in both Gaia and Hipparcos. 
+
+### Notes for SS20_interesting_stars
+- Code determines which stars are 'interesting' based on the users criteria of how many companions are found in a system and how high the acceleration of the primary star is. Currently assumes 0 binaries and an astrometric acceleration of 100m/s/yr.
