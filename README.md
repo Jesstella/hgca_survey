@@ -46,3 +46,6 @@ NB: There are more object types in SIMBAD that are indicative of multiple star s
 
 ### Notes for SS20_compiling_spreadsheet 
 - Code will compile all the calculated elements of each system into a spreadsheet with all systems. If the above code has been used, this script should run without complaint.
+
+### Notes for SS20_companion_data_from_WDS
+- Code goes through list of WDS stars and pulls all information about their components from Vizier.
