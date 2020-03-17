@@ -49,3 +49,6 @@ NB: There are more object types in SIMBAD that are indicative of multiple star s
 
 ### Notes for SS20_companion_data_from_WDS
 - Code goes through list of WDS stars and pulls all information about their components from Vizier.
+
+### Notes for SS20_koa_companions
+- Code will find the KOA observations that have companions. It will then cross-match these stars with the HGCA to create a spreadsheet column identifying which KOA stars have companions. 
