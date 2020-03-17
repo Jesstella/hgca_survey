@@ -12,7 +12,7 @@ megafile = pd.read_csv('/Users/Jess/HGCA_survey_paper/megafile.csv')
 print('There are ' + str(len(megafile)) + ' HCGA stars.')
 
 # Reading in KOA file
-koafile = pd.read_csv('/Users/Jess/Downloads/new_keck_stars_edited.csv')
+koafile = pd.read_csv('/Users/Jess/HGCA_survey_paper/new_keck_stars_edited.csv')
 print('There are ' + str(len(koafile)) + ' files in the KOA database.')
 
 # Create a list of unique observation dates
@@ -44,6 +44,7 @@ t0 = time.time()
 # list to save final indexes
 total_indices = []
 filename_indices = []
+file_names = []
 
 # Opening each of the files - there is one for each date, each containing all observations at that date. 
 koa_dates = glob.glob('/Users/Jess/HGCA_survey_paper/koa_date/koa_date*.csv')
@@ -76,11 +77,8 @@ for i in koa_dates:
     print('There are ' + str(len(set(idxsc))) + ' stars in HGCA that are also present in KOA observations. \n')
     
     # Save indices for matches found
-    for x in idxsc:
-        total_indices.append(x)
-    
-    for y in idxcatalog:
-        filename_indices.append(y)
+    for x1 in idxsc:
+        total_indices.append(x1)
 
 # Complete timer
 t1 = time.time()
@@ -107,3 +105,6 @@ col = zip(filenames_cut)
 header = ['new_filenames']
 Fnames = pd.DataFrame(col, columns=header)
 Fnames.to_csv('/Users/Jess/HGCA_survey_paper/koa_shortened_names.csv', index=False)
+
+fnames = pd.read_csv('/Users/Jess/HGCA_survey_paper/koa_shortened_names.csv')
+
