@@ -52,3 +52,6 @@ NB: There are more object types in SIMBAD that are indicative of multiple star s
 
 ### Notes for SS20_koa_companions
 - Code will find the KOA observations that have companions. It will then cross-match these stars with the HGCA to create a spreadsheet column identifying which KOA stars have companions. 
+
+### Notes for SS20_cross_match_WDS_KOA
+- Code compares the list of WDS companions with the list of KOA companions and comes up with stars that appear in both, creating a new spreadsheet that can be used to collect mass data.
